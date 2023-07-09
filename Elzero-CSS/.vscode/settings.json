@@ -1,0 +1,15 @@
+{
+	"cSpell.words": ["assnmnt"],
+	"html-fmt-vscode.extraNonIndentingTags": [],
+	"html-fmt-vscode.indentSize": 2,
+	"html-fmt-vscode.multilineAttributeThreshold": 4,
+	"editor.fontSize": 22,
+	"editor.tabSize": 2,
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"editor.defaultColorDecorators": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnType": true,
+	"editor.columnSelection": false
+}

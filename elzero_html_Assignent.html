@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style></style>
+    <!--CSS styling code-->
+    <link rel="stylesheet" href="#">
+    <!--to link css styling page-->
+    <meta name="description" content="This Is Description For My First Page">
+    <!--page description that appears in browsers-->
+    <meta charset="UTF-8">
+    <!--page encoding-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Page</title>
+    <!--page title-->
+  </head>
+  <body>
+    This Is My First Page
+    <hr>
+    <form target="_self">
+      <label for="username">User Name</label>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        required
+        autofocus
+        placeholder="User Name"
+        minlength="5"
+        maxlength="20"
+      >
+      <label for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        value="o@o.com"
+        required
+        readonly
+      >
+      <label for="token" hidden>Token</label>
+      <input
+        type="password"
+        name="token"
+        id="token"
+        value="b92f1fc2fce391ad7af633723afd3055"
+        required
+        hidden
+      >
+      <hr>
+      <div>
+        skills
+        <br>
+        <input
+          type="checkbox"
+          id="planning"
+          checked
+          name="skills"
+          value="planning"
+        >
+        <label for="planning">planning</label>
+        <br>
+        <input
+          type="checkbox"
+          id="analysis"
+          name="skills"
+          value="analysis"
+        >
+        <label for="analysis">analysis</label>
+        <br>
+        <input
+          type="checkbox"
+          id="advanced_search"
+          name="skills"
+          value="advanced_search"
+        >
+        <label for="advanced_search">advanced_search</label>
+        <br>
+        <input
+          type="checkbox"
+          name="skills"
+          id="logical_thinking"
+          value="logical_thinking"
+        >
+        <label for="logical_thinking">logical_thinking</label>
+        <br>
+        <input
+          type="checkbox"
+          name="skills"
+          id="problem_solving"
+          value="problem_solving"
+        >
+        <label for="problem_solving">problem_solving</label>
+        <hr>
+      </div>
+      <div>
+        job
+        <br>
+        <input
+          type="radio"
+          name="job"
+          checked
+          id="business_analysis"
+        >
+        <label for="business_analysis">business_analysis</label>
+        <br>
+        <input type="radio" id="bed" name="job">
+        <label for="bed">back_end developer</label>
+        <br>
+        <input type="radio" id="fed" name="job">
+        <label for="fed">front_end developer</label>
+        <br>
+        <input type="radio" id="sm" name="job">
+        <label for="sm">scrum_master</label>
+        <br>
+        <input type="radio" id="pm" name="job">
+        <label for="pm">project_manager</label>
+        <hr>
+      </div>
+      <div>
+        <select>
+          <optgroup label="PHP">
+            <option>V5.0</option>
+            <option>V7.0</option>
+            <option>V8.0</option>
+          </optgroup>
+          <optgroup label="Python">
+            <option>V2.0</option>
+            <option>V3.0</option>
+            <option>V3.9</option>
+          </optgroup>
+        </select>
+      </div>
+      <hr>
+      <div>
+        <textarea
+          name="brief"
+          placeholder=" Write Here Why You Want To Learn Programming"
+          rows="10"
+          cols="40"
+        ></textarea>
+      </div>
+      <input type="reset" value="Empty">
+      <input type="submit" value="Send">
+    </form>
+    <hr>
+    <!---------------------------------------->
+    <h1>My Info</h1>
+    <p>
+      My Name Is:
+      <b>Kafu Arwani</b>
+    </p>
+    <p>
+      I'm
+      <strong>Available</strong>
+      For Hire
+    </p>
+    <p>
+      My Our Old Price Is
+      <del>$10</del>
+      And The New Price Is
+      <mark>$30</mark>
+    </p>
+    <p>
+      Visit My website From This Link
+      <a href="#">Elzero Academy</a>
+    </p>
+    <hr>
+    <h1>Here Is Some Of My Clients</h1>
+    <img decoding="async" src="https://via.placeholder.com/100x50/F00/FFF?text=Elzero+Web+School" alt="">
+    <img decoding="async" src="https://via.placeholder.com/100x50/0F0/FFF?text=Elzero+Web+School" alt="">
+    <img decoding="async" src="https://via.placeholder.com/100x50/00F/FFF?text=Elzero+Web+School" alt="">
+    <hr>
+    <h1>My Skills</h1>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>
+        JavaScript
+        <ul>
+          <li>Vuejs</li>
+          <li>ReactJs</li>
+          <li>
+            Angular
+            <ol type="1" start="4">
+              <li>V4.0</li>
+              <li>V5.0</li>
+              <li>V6.0</li>
+              <li>V7.0</li>
+              <li>V8.0</li>
+            </ol>
+          </li>
+          <li>Svelte</li>
+        </ul>
+      </li>
+      <li>Python</li>
+    </ul>
+    <hr>
+    <!---------------------------------->
+    <ul>
+      <li>
+        One
+        <ol type="A" start="c">
+          <li>C</li>
+          <li>D</li>
+          <li>E</li>
+        </ol>
+      </li>
+      <li>
+        Two
+        <ol type="I" start="3">
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+        </ol>
+      </li>
+      <li>
+        Three
+        <ol type="a" start="4" reversed>
+          <li>d</li>
+          <li>c</li>
+          <li>b</li>
+        </ol>
+      </li>
+    </ul>
+    <hr>
+    <!---------------------------------------->
+    <dl>
+      <dt>Learn Programming</dt>
+      <dd>Learn Computer Science</dd>
+      <dd>Learn Database</dd>
+      <dt>Design</dt>
+      <dd>Learn Graphics</dd>
+      <dd>Learn Sk</dd>
+    </dl>
+    <hr>
+    <!---------------------------------------->
+    <table style="width: 100%" border="1">
+      <caption>
+        Members Data
+      </caption>
+      <thead>
+        <tr>
+          <th>Group</th>
+          <th>Avatar</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Character</th>
+          <th>Profile</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">Ninja</td>
+          <td>
+            <img decoding="async" src="https://via.placeholder.com/40x40/00f/FFF?text=40*40" alt="">
+          </td>
+          <td>
+            Osama
+            <br>
+            Mohammad
+          </td>
+          <td>
+            O1@nn.sa
+            <hr>
+            O2@22.sa
+          </td>
+          <td>&copy;</td>
+          <td>
+            <a href="#" target="_blank">Profile</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img decoding="async" src="https://via.placeholder.com/40x40/f00/FFF?text=40*40" alt="">
+          </td>
+          <td>
+            Shady
+            <br>
+            Nabil
+          </td>
+          <td>S@nn.sa</td>
+          <td>&trade;</td>
+          <td>
+            <a href="#" target="_blank">Profile</a>
+          </td>
+        </tr>
+        <tr>
+          <td>Monsters</td>
+          <td>
+            <img decoding="async" src="https://via.placeholder.com/40x40/000/FFF?text=40*40" alt="">
+          </td>
+          <td>
+            Mohammad
+            <br>
+            Ibrahim
+          </td>
+          <td>M@nn.sa</td>
+          <td>&#174;</td>
+          <td>
+            <a href="#" target="_blank">Profile</a>
+          </td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="5">Total Members</td>
+          <td>3</td>
+        </tr>
+      </tfoot>
+    </table>
+    <hr>
+    <!----------------------------->
+    <table border="1" style="width: 70%">
+      <caption>
+        Table Caption
+      </caption>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Name</th>
+          <th>Points</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="4">Month</td>
+          <td>Osama Mohammad</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>Sayed Mohammad</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>Ahmad Mohammad</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>Eman Mohammad</td>
+          <td>100</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr>
+    <!-------------------------------->
+    <table border="1" style="width: 100%">
+      <caption>
+        Complex Table
+      </caption>
+      <thead>
+        <tr>
+          <td>Year</td>
+          <td>Group</td>
+          <td>Language</td>
+          <td>done</td>
+          <td>Passed</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="5">2022</td>
+          <td rowspan="2">Elzero</td>
+          <td>HTML</td>
+          <td colspan="2">Yes</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td colspan="2">Yes</td>
+        </tr>
+        <tr>
+          <td rowspan="3">Heroes</td>
+          <td>JS</td>
+          <td>Yes</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td>PHP</td>
+          <td colspan="2">Yes</td>
+        </tr>
+        <tr>
+          <td>Python</td>
+          <td>No</td>
+          <td>No</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr>
+    <!---------------------------->
+    <input
+      type="range"
+      step="10"
+      title="Range Input"
+      value="50"
+      min="0"
+      max="100"
+    >
+  </body>
+</html>
